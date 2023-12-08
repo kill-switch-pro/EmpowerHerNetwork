@@ -174,6 +174,18 @@ let short_messages = [
   "Thank you for being the friend who makes life's journey worthwhile.",
 ];
 
+function displayRandomMessage() {
+  // Get a random index from the messages array
+  var randomIndex = Math.floor(Math.random() * messages.length);
+
+  // Display the random message
+  document.getElementById("messageDisplay").innerHTML = messages[randomIndex];
+}
+// Initial display
+displayRandomMessage();
+// Display a random message every 1 day
+setInterval(displayRandomMessage, 86400000);
+
 function displayRandomMessageShort() {
   // Get a random index from the messages array
   var randomIndexShort = Math.floor(Math.random() * short_messages.length);
@@ -188,20 +200,8 @@ displayRandomMessageShort();
 setInterval(displayRandomMessageShort, 25555500);
 
 //display random message when the body loads
-//document.body.addEventListener("load", displayRandomMessageShort);
-//document.body.addEventListener("load", displayRandomMessage);
-
-function displayRandomMessage() {
-  // Get a random index from the messages array
-  var randomIndex = Math.floor(Math.random() * messages.length);
-
-  // Display the random message
-  document.getElementById("messageDisplay").innerHTML = messages[randomIndex];
-}
-// Initial display
-displayRandomMessage();
-// Display a random message every 1 day
-setInterval(displayRandomMessage, 86400000);
+document.body.addEventListener("load", displayRandomMessageShort);
+document.body.addEventListener("load", displayRandomMessage);
 
 // Uncomment the line below if you want to stop displaying messages after a certain time (e.g., 5 minutes)
 // setTimeout(() => clearInterval(messageInterval), 300000); // 300,000 milliseconds = 5 minutes
@@ -227,6 +227,26 @@ getJoke();
 
 //light and dark mode
 function dark() {
-  document.body.classList.toggle("dark-mode");
+  //get each element then style them
+  let messageOne = document.getElementById("messageDisplay");
+  let messageTwo = document.getElementById("messageDisplayShort");
+  let clickBtn = document.getElementById("btn");
+  let jokeBtn = document.getElementById("joke");
+  let realBtn = document.getElementById("button");
+  //let arr = [messageOne, messageTwo, clickBtn, jokeBtn];
+
+  messageOne.style.backgroundColor = "black";
+  messageTwo.style.backgroundColor = "black";
+  clickBtn.style.backgroundColor = "black";
+  clickBtn.style.color = "white";
+  realBtn.style.backgroundColor = "black";
+  realBtn.style.color = "white";
+  messageOne.style.color = "white";
+  messageTwo.style.color = "white";
+  jokeBtn.style.backgroundColor = "black";
+  jokeBtn.style.color = "white";
+  document.body.style.backgroundColor = "black";
+  messageOne.style.boxShadow =
+    "-2px -2px 3px rgba(94, 104, 121, 0.945), 2px 2px 3spx #ffffff";
 }
 //make background image her picture in ASCI
