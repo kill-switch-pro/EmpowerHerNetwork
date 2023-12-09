@@ -5,15 +5,11 @@ let messages = [
   " Every time I see your face, I cannot help but feel so blessed that you have graced me with your love. You are my dream come true and I will always cherish you forever.",
 
   " You are the most beautiful creature ever to have lived in this world, your eyes are like the night sky, your lips as sweet as candy, and your voice is more melodic than any song ever written. You are simply perfection itself and I love you.",
-  " There is no one else in this world that I would rather spend the rest of my life with than you. You are my everything, my whole entire world. I love you beyond words.",
   " Out of every day, in every way, I get better and better because you are always by my side. I love you.",
-  " I have traveled across dozens of countries and have seen the most beautiful places ever but none of these can compare to the beauty of your eyes, the wonder of your smile, and the melody of your voice. You are unparalleled to anything and everything else in this world. I love you beyond any measure",
-  ,
+
   " You have brought so much joy to my life, I don’t know where I would be without you. You illuminate my days and brighten up all the dark spots. I love you.",
 
   " I will love you until the stars no longer shine in the sky. I will love you as each new day dawns. I will love you until the end of time itself.",
-
-  " Every hour, every minute, every second that passes I love you more and more. I could spend a thousand lifetimes with you and still want more because your love is like a bottomless well. I can never get enough of you my love.",
 
   " My dearest, I don’t know where I would be without your love. You bring out the best in me and give me strength when I am feeling low. You are everything that is right in this world. I love you.",
   "You are my shining star, my beautiful angel, and my amazing queen. You are the most wonderful person that I have ever met and the best thing that has ever happened to me. I cherish you always",
@@ -23,8 +19,6 @@ let messages = [
   "Your voice is like an angel’s song. You are the most beautiful creature that I have ever laid my eyes upon. You are perfect in every way. I love everything about you",
 
   "I try to list your best qualities and still cannot do justice to your magnificence. You are the love of my life and my reason for everything that I do. I cherish you forever and always",
-
-  "I will always love you. Wherever you are, whatever happens, I will always love you. I promise you this",
 
   "Let us love each day as if there was no tomorrow because today is the day I have found you. You are the one that I want to be with from here on out",
 
@@ -36,13 +30,9 @@ let messages = [
 
   "Every time I think about you my heart skips more than a few beats. Your eyes, your smile, your hair, everything is beautiful to me. I want to hold you close each and every night when we go to sleep",
 
-  "I want to stay with you forever and always. I want to hold your hand in the street. I want to sleep with you every night. I want to feel your lips on mine. You are the one for me. I love you",
-
   "Let’s run away together and leave all this behind. All we need is each other. I promise to love, honor and cherish you for as long as I live",
 
-  "I never thought that I could ever fall in love like this again. You are so kind, so loving and so understanding. Your eyes show me the light at the end of the tunnel. I want to be with you forever, until the end of time",
-
-  "There is nobody else in this world that I want rather than you. You mean the whole world to me. You are the love of my life and always will be",
+  "I never thought that I could ever fall in love like this again. You are so kind, so loving and so understanding. Your eyes show me the light at the end of the tunnel.",
 
   "I never believed in true love until I met you. Now I see that there is an absolute, never-ending love out there. It’s beautiful. I want you to be my partner in crime",
 
@@ -66,15 +56,12 @@ let messages = [
 
   "Meeting you was fate, becoming your friend was a choice but falling in love with you was out of my control",
 
-  "I want to be wrapped in your arms forever as we look upon the stars together. Just you and me",
-
   "My heart beats for you, my life depends on you and my blood flows because of you. I love you. Everything I am is because of you",
 
   "I don’t want the world. I just want you to be mine",
   "You are my special angel sent from up above. I love you",
-];
-
-let short_messages = [
+  //];
+  //let short_messages = [
   "You light up my world with your presence.",
   "Our friendship is a treasure I hold close to my heart.",
   "In the story of my life, you're the most beautiful chapter.",
@@ -174,18 +161,99 @@ let short_messages = [
   "Thank you for being the friend who makes life's journey worthwhile.",
 ];
 
+let dad_jokes = [
+  "Why did the scarecrow win an award? Because he was outstanding in his field!",
+  "I only know 25 letters of the alphabet. I don't know y.",
+  "What do you call fake spaghetti? An impasta.",
+  "Did you hear about the mathematician who's afraid of negative numbers? He'll stop at nothing to avoid them.",
+  "Why don't scientists trust atoms? Because they make up everything!",
+  "I told my wife she was drawing her eyebrows too high. She looked surprised.",
+  "I used to play piano by ear, but now I use my hands and fingers.",
+  "Why don't skeletons fight each other? They don't have the guts.",
+  "I only know a great joke about construction, but I'm still working on that one.",
+  "I told my wife she should embrace her mistakes. She gave me a hug.",
+  "Parallel lines have so much in common. It’s a shame they’ll never meet.",
+  "Why did the golfer bring two pairs of pants? In case he got a hole in one!",
+  "I used to play piano by ear, but now I use my hands and fingers.",
+  "Why don't eggs tell each other secrets? Because they might crack up.",
+  "I told my computer I needed a break, and now it won't stop sending me vacation ads.",
+  "I asked the librarian if the library had books on paranoia. She whispered, 'They're right behind you.'",
+  "I only know 25 letters of the alphabet. I don't know y.",
+  "Why do chicken coops only have two doors? Because if they had four, they’d be a chicken sedan.",
+  "I told my wife she was drawing her eyebrows too high. She looked surprised.",
+  "I told my wife she should embrace her mistakes. She gave me a hug.",
+  "What did the grape do when it got stepped on? Nothing but let out a little wine!",
+  "Why don't scientists trust atoms? Because they make up everything!",
+  "I used to be a baker because I kneaded dough.",
+  "Why did the bicycle fall over? Because it was two-tired!",
+  "I told my wife she was going to be really surprised on her birthday. She still isn't.",
+  "Why don't skeletons fight each other? They don't have the guts.",
+  "I used to play piano by ear, but now I use my hands and fingers.",
+  "I told my computer I needed a break, and now it won't stop sending me vacation ads.",
+  "Why don't eggs tell each other secrets? Because they might crack up.",
+  "I asked the librarian if the library had books on paranoia. She whispered, 'They're right behind you.'",
+  "I only know 25 letters of the alphabet. I don't know y.",
+  "Why do chicken coops only have two doors? Because if they had four, they’d be a chicken sedan.",
+  "I told my wife she was drawing her eyebrows too high. She looked surprised.",
+  "I told my wife she should embrace her mistakes. She gave me a hug.",
+  "What did the grape do when it got stepped on? Nothing but let out a little wine!",
+  "Why don't scientists trust atoms? Because they make up everything!",
+  "I used to be a baker because I kneaded dough.",
+  "Why did the bicycle fall over? Because it was two-tired!",
+  "I told my wife she was going to be really surprised on her birthday. She still isn't.",
+  "Parallel lines have so much in common. It’s a shame they’ll never meet.",
+  "Why did the golfer bring two pairs of pants? In case he got a hole in one!",
+  "I told my wife she should embrace her mistakes. She gave me a hug.",
+  "Parallel lines have so much in common. It’s a shame they’ll never meet.",
+  "Why did the golfer bring two pairs of pants? In case he got a hole in one!",
+  "I used to play piano by ear, but now I use my hands and fingers.",
+  "Why don't eggs tell each other secrets? Because they might crack up.",
+  "I told my computer I needed a break, and now it won't stop sending me vacation ads.",
+  "I asked the librarian if the library had books on paranoia. She whispered, 'They're right behind you.'",
+  "I only know 25 letters of the alphabet. I don't know y.",
+  "Why do chicken coops only have two doors? Because if they had four, they’d be a chicken sedan.",
+  "I told my wife she was drawing her eyebrows too high. She looked surprised.",
+  "I told my wife she should embrace her mistakes. She gave me a hug.",
+  "What did the grape do when it got stepped on? Nothing but let out a little wine!",
+  "Why don't scientists trust atoms? Because they make up everything!",
+  "I used to be a baker because I kneaded dough.",
+  "Why did the bicycle fall over? Because it was two-tired!",
+  "I told my wife she was going to be really surprised on her birthday. She still isn't.",
+  "Parallel lines have so much in common. It’s a shame they’ll never meet.",
+  "Why did the golfer bring two pairs of pants? In case he got a hole in one!",
+  "I told my wife she should embrace her mistakes. She gave me a hug.",
+  "Parallel lines have so much in common. It’s a shame they’ll never meet.",
+  "Why did the golfer bring two pairs of pants? In case he got a hole in one!",
+  "I used to play piano by ear, but now I use my hands and fingers.",
+  "Why don't eggs tell each other secrets? Because they might crack up.",
+  "I told my computer I needed a break, and now it won't stop sending me vacation ads.",
+  "I asked the librarian if the library had books on paranoia. She whispered, 'They're right behind you.'",
+  "I only know 25 letters of the alphabet. I don't know y.",
+  "Why do chicken coops only have two doors? Because if they had four, they’d be a chicken sedan.",
+  "I told my wife she was drawing her eyebrows too high. She looked surprised.",
+  "I told my wife she should embrace her mistakes. She gave me a hug.",
+  "What did the grape do when it got stepped on? Nothing but let out a little wine!",
+  "Why don't scientists trust atoms? Because they make up everything!",
+  "I used to be a baker because I kneaded dough.",
+  "Why did the bicycle fall over? Because it was two-tired!",
+  "I told my wife she was going to be really surprised on her birthday. She still isn't.",
+];
+
 function displayRandomMessage() {
   // Get a random index from the messages array
   var randomIndex = Math.floor(Math.random() * messages.length);
+  var randomIndexTwo = Math.floor(Math.random() * messages.length);
 
   // Display the random message
   document.getElementById("messageDisplay").innerHTML = messages[randomIndex];
+  document.getElementById("messageDisplayShort").innerHTML =
+    messages[randomIndexTwo];
 }
 // Initial display
 displayRandomMessage();
 // Display a random message every 1 day
 setInterval(displayRandomMessage, 86400000);
-
+/*
 function displayRandomMessageShort() {
   // Get a random index from the messages array
   var randomIndexShort = Math.floor(Math.random() * short_messages.length);
@@ -193,11 +261,17 @@ function displayRandomMessageShort() {
   // Display the random message
   document.getElementById("messageDisplayShort").innerHTML =
     messages[randomIndexShort];
+}*/
+function dadJoke() {
+  // Get a random index from the messages array
+  var joke = Math.floor(Math.random() * dad_jokes.length);
+
+  // Display the random message
+  document.getElementById("dadjoke").innerHTML = dad_jokes[joke];
 }
 // Initial display
-displayRandomMessageShort();
+dadJoke();
 // Display a random message every 7 hours
-setInterval(displayRandomMessageShort, 25555500);
 
 //display random message when the body loads
 //document.body.addEventListener("load", displayRandomMessageShort);
@@ -224,7 +298,8 @@ let getJoke = () => {
 function getNewContent() {
   getJoke();
   displayRandomMessage();
-  displayRandomMessageShort();
+  //displayRandomMessageShort();
+  dadJoke();
 }
 
 btn.addEventListener("click", getNewContent);

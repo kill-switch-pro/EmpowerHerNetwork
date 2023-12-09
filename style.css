@@ -3,6 +3,7 @@
 #messageDisplayShort,
 .tooltip,
 #btn,
+#dadjoke,
 button {
   font-family: Arial, sans-serif, oblique;
   font-size: 18px;
@@ -16,6 +17,7 @@ button {
   box-shadow: 2px 2px 9px #ffffff, -4px -4px 5px rgba(94, 104, 121, 0.945);
 }
 #joke:hover,
+#dadjoke:hover,
 #messageDisplay:hover,
 #messageDisplayShort:hover,
 .tooltip:hover,
