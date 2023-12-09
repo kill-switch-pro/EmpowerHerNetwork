@@ -200,8 +200,8 @@ displayRandomMessageShort();
 setInterval(displayRandomMessageShort, 25555500);
 
 //display random message when the body loads
-document.body.addEventListener("load", displayRandomMessageShort);
-document.body.addEventListener("load", displayRandomMessage);
+//document.body.addEventListener("load", displayRandomMessageShort);
+//document.body.addEventListener("load", displayRandomMessage);
 
 // Uncomment the line below if you want to stop displaying messages after a certain time (e.g., 5 minutes)
 // setTimeout(() => clearInterval(messageInterval), 300000); // 300,000 milliseconds = 5 minutes
@@ -220,9 +220,14 @@ let getJoke = () => {
       jokeContainer.classList.add("fade");
     });
 };
-document.body.addEventListener("load", getJoke);
 
-btn.addEventListener("click", getJoke);
+function getNewContent() {
+  getJoke();
+  displayRandomMessage();
+  displayRandomMessageShort();
+}
+
+btn.addEventListener("click", getNewContent);
 getJoke();
 
 //light and dark mode
