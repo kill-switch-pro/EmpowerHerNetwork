@@ -30,8 +30,6 @@ let messages = [
 
   "Every time I think about you my heart skips more than a few beats. Your eyes, your smile, your hair, everything is beautiful to me. I want to hold you close each and every night when we go to sleep",
 
-  "Let’s run away together and leave all this behind. All we need is each other. I promise to love, honor and cherish you for as long as I live",
-
   "I never thought that I could ever fall in love like this again. You are so kind, so loving and so understanding. Your eyes show me the light at the end of the tunnel.",
 
   "I never believed in true love until I met you. Now I see that there is an absolute, never-ending love out there. It’s beautiful. I want you to be my partner in crime",
@@ -239,29 +237,256 @@ let dad_jokes = [
   "I told my wife she was going to be really surprised on her birthday. She still isn't.",
 ];
 
+let motivationMessage = [
+  "Believe you can and you're halfway there.",
+  "Your attitude determines your direction.",
+  "The only way to do great work is to love what you do.",
+  "Dream big, work hard, stay focused.",
+  "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+  "You are never too old to set another goal or to dream a new dream.",
+  "The only limit to our realization of tomorrow will be our doubts of today.",
+  "Success is not in what you have, but who you are.",
+  "The only person you are destined to become is the person you decide to be.",
+  "Don't watch the clock; do what it does. Keep going.",
+  "The future belongs to those who believe in the beauty of their dreams.",
+  "Strive for progress, not perfection.",
+  "The only place where success comes before work is in the dictionary.",
+  "Your time is limited, don't waste it living someone else's life.",
+  "It always seems impossible until it's done.",
+  "Success usually comes to those who are too busy to be looking for it.",
+  "The harder you work for something, the greater you'll feel when you achieve it.",
+  "Don't be pushed around by the fears in your mind. Be led by the dreams in your heart.",
+  "Believe in yourself and all that you are. Know that there is something inside you that is greater than any obstacle.",
+  "Do not wait to strike till the iron is hot, but make it hot by striking.",
+  "The only way to achieve the impossible is to believe it is possible.",
+  "Success is not just about making money. It's about making a difference.",
+  "The only person you are destined to become is the person you decide to be.",
+  "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+  "What lies behind us and what lies before us are tiny matters compared to what lies within us.",
+  "The only limit to our realization of tomorrow will be our doubts of today.",
+  "The only thing standing between you and your goal is the story you keep telling yourself as to why you can't achieve it.",
+  "Believe you can and you're halfway there.",
+  "Your attitude determines your direction.",
+  "It does not matter how slowly you go, as long as you do not stop.",
+  "The only way to do great work is to love what you do.",
+  "Dream big, work hard, stay focused.",
+  "Success is not in what you have, but who you are.",
+  "The only place where success comes before work is in the dictionary.",
+  "The future belongs to those who believe in the beauty of their dreams.",
+  "Strive for progress, not perfection.",
+  "The only person you are destined to become is the person you decide to be.",
+  "Don't watch the clock; do what it does. Keep going.",
+  "Your time is limited, don't waste it living someone else's life.",
+  "It always seems impossible until it's done.",
+  "Success usually comes to those who are too busy to be looking for it.",
+  "The harder you work for something, the greater you'll feel when you achieve it.",
+  "Don't be pushed around by the fears in your mind. Be led by the dreams in your heart.",
+  "Believe in yourself and all that you are. Know that there is something inside you that is greater than any obstacle.",
+  "Do not wait to strike till the iron is hot, but make it hot by striking.",
+  "The only way to achieve the impossible is to believe it is possible.",
+  "Success is not just about making money. It's about making a difference.",
+  "The only person you are destined to become is the person you decide to be.",
+  "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+  "What lies behind us and what lies before us are tiny matters compared to what lies within us.",
+  "The only limit to our realization of tomorrow will be our doubts of today.",
+  "The only thing standing between you and your goal is the story you keep telling yourself as to why you can't achieve it.",
+  "Believe you can and you're halfway there.",
+  "Your attitude determines your direction.",
+  "It does not matter how slowly you go, as long as you do not stop.",
+  "The only way to do great work is to love what you do.",
+  "Dream big, work hard, stay focused.",
+  "Success is not in what you have, but who you are.",
+  "The only place where success comes before work is in the dictionary.",
+  "The future belongs to those who believe in the beauty of their dreams.",
+  "Strive for progress, not perfection.",
+  "The only person you are destined to become is the person you decide to be.",
+  "Don't watch the clock; do what it does. Keep going.",
+  "Your time is limited, don't waste it living someone else's life.",
+  "It always seems impossible until it's done.",
+  "Success usually comes to those who are too busy to be looking for it.",
+  "The harder you work for something, the greater you'll feel when you achieve it.",
+  "Don't be pushed around by the fears in your mind. Be led by the dreams in your heart.",
+  "Believe in yourself and all that you are. Know that there is something inside you that is greater than any obstacle.",
+  "Do not wait to strike till the iron is hot, but make it hot by striking.",
+  "The only way to achieve the impossible is to believe it is possible.",
+  "Success is not just about making money. It's about making a difference.",
+  "The only person you are destined to become is the person you decide to be.",
+  "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+  "What lies behind us and what lies before us are tiny matters compared to what lies within us.",
+  "The only limit to our realization of tomorrow will be our doubts of today.",
+  "The only thing standing between you and your goal is the story you keep telling yourself as to why you can't achieve it.",
+  "Believe you can and you're halfway there.",
+  "Your attitude determines your direction.",
+  "It does not matter how slowly you go, as long as you do not stop.",
+  "The only way to do great work is to love what you do.",
+  "Dream big, work hard, stay focused.",
+  "Success is not in what you have, but who you are.",
+  "The only place where success comes before work is in the dictionary.",
+  "The future belongs to those who believe in the beauty of their dreams.",
+  "Strive for progress, not perfection.",
+  "The only person you are destined to become is the person you decide to be.",
+  "Don't watch the clock; do what it does. Keep going.",
+  "Your time is limited, don't waste it living someone else's life.",
+  "It always seems impossible until it's done.",
+  "Success usually comes to those who are too busy to be looking for it.",
+  "The harder you work for something, the greater you'll feel when you achieve it.",
+  "Don't be pushed around by the fears in your mind. Be led by the dreams in your heart.",
+  "Believe in yourself and all that you are. Know that there is something inside you that is greater than any obstacle.",
+  "Do not wait to strike till the iron is hot, but make it hot by striking.",
+  "The only way to achieve the impossible is to believe it is possible.",
+  "Success is not just about making money. It's about making a difference.",
+  "The only person you are destined to become is the person you decide to be.",
+  "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+  "What lies behind us and what lies before us are tiny matters compared to what lies within us.",
+  "The only limit to our realization of tomorrow will be our doubts of today.",
+  "The only thing standing between you and your goal is the story you keep telling yourself as to why you can't achieve it.",
+
+  // Hope Quotes
+  "Hope is the anchor of the soul.",
+  "Keep your head high, keep your chin up, and most importantly, keep smiling.",
+  "Hope is the only thing stronger than fear.",
+  "Difficulties in life are intended to make us better, not bitter.",
+  "Believe you can and you're halfway there.",
+  "Hope is being able to see that there is light despite all of the darkness.",
+  "Don't lose hope. When the sun goes down, the stars come out.",
+  "Every cloud has a silver lining.",
+  "Hope is a waking dream.",
+  "Where there is hope, there is faith. Where there is faith, miracles happen.",
+  // ... (Add 40 more hope quotes)
+
+  // Do Not Give Up Quotes
+  "Fall seven times, stand up eight.",
+  "The only way to do great work is to love what you do.",
+  "Your hardest times often lead to the greatest moments of your life.",
+  "It's not whether you get knocked down, it's whether you get up.",
+  "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+  "Don't watch the clock; do what it does. Keep going.",
+  "Keep going. Everything you need will come to you at the perfect time.",
+  "You are never too old to set another goal or to dream a new dream.",
+  "It's not about how hard you hit. It's about how hard you can get hit and keep moving forward.",
+  "Believe in yourself and all that you are. Know that there is something inside you that is greater than any obstacle.",
+  // ... (Add 40 more do not give up quotes)
+
+  // Be Happy Quotes
+  "Happiness is not by chance but by choice.",
+  "The best way to cheer yourself up is to try to cheer somebody else up.",
+  "Do more things that make you forget to check your phone.",
+  "Be so happy that when others look at you, they become happy too.",
+  "The secret of being happy is accepting where you are in life and making the most out of every day.",
+  "The purpose of our lives is to be happy.",
+  "Happiness is not a destination; it is a way of life.",
+  "Smile at strangers and you just might change a life.",
+  "Do what makes your soul shine.",
+  "The greatest happiness you can have is knowing that you do not necessarily require happiness.",
+
+  "Happiness is a journey, not a destination.",
+  "The only thing that will make you happy is being happy with who you are.",
+  "Happiness is not out there, it's in you.",
+  "Do what makes you happy, be with who makes you smile.",
+  "Happiness is not something ready-made. It comes from your own actions.",
+  "The key to being happy is knowing you have the power to choose what to accept and what to let go.",
+  "Happiness is an inside job.",
+  "The greatest happiness you can have is knowing that you do not necessarily require happiness.",
+  "Happiness is letting go of what you think your life is supposed to look like.",
+  "The happiest people don't have the best of everything, they just make the best of everything.",
+  "You don't need a reason to be happy, just a choice.",
+  "Success is not the key to happiness. Happiness is the key to success.",
+  "Learn to let go. That is the key to happiness.",
+  "Happiness is not by chance, but by choice.",
+  "The purpose of our lives is to be happy.",
+  "Happiness is when what you think, what you say, and what you do are in harmony.",
+  "The more you praise and celebrate your life, the more there is in life to celebrate.",
+  "If you want to be happy, be.",
+  "Happiness is not a goal; it is a by-product.",
+  "Count your age by friends, not years. Count your life by smiles, not tears.",
+  "The secret of happiness is not in doing what one likes, but in liking what one does.",
+  "Be happy with what you have. Be excited about what you want.",
+  "Happiness is a choice. You can choose to be happy. There's going to be stress in life, but it's your choice whether you let it affect you or not.",
+  "The best way to cheer yourself up is to try to cheer somebody else up.",
+  "Happiness is not something you postpone for the future; it is something you design for the present.",
+  "Don't cry because it's over, smile because it happened.",
+  "The only limit to our realization of tomorrow will be our doubts of today.",
+  "You will never be happy if you continue to search for what happiness consists of. You will never live if you are looking for the meaning of life.",
+  "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+  "Life is 10% what happens to us and 90% how we react to it.",
+  "The purpose of our lives is to be happy.",
+  "To live is the rarest thing in the world. Most people exist, that is all.",
+  "Happiness is not in the mere possession of money; it lies in the joy of achievement, in the thrill of creative effort.",
+  "The greatest happiness you can have is knowing that you do not necessarily require happiness.",
+  "Happiness is a warm puppy.",
+  "Happiness is a state of mind. It's just according to the way you look at things.",
+  "Happiness is not having what you want. It's wanting what you have.",
+  "The best way to predict the future is to create it.",
+  "Success is not the key to happiness. Happiness is the key to success.",
+  "The greatest happiness you can have is knowing that you do not necessarily require happiness.",
+  "The only way to do great work is to love what you do.",
+  "Be kind whenever possible. It is always possible.",
+  "Don't count the days, make the days count.",
+  "The secret to happiness is freedom... And the secret to freedom is courage.",
+  "Happiness is not something ready-made. It comes from your own actions.",
+  "Don't let yesterday take up too much of today.",
+  "The best way to predict your future is to create it.",
+  "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+  "It is not how much we have, but how much we enjoy, that makes happiness.",
+  "The best preparation for tomorrow is doing your best today.",
+  "Happiness is not a goal; it is a by-product.",
+  "Happiness is not a goal; it is a by-product.",
+  "Don't cry because it's over, smile because it happened.",
+  "The greatest happiness you can have is knowing that you do not necessarily require happiness.",
+  "Success is not the key to happiness. Happiness is the key to success.",
+  "The purpose of our lives is to be happy.",
+  "Success is not the key to happiness. Happiness is the key to success.",
+  "Happiness is a journey, not a destination.",
+  "The purpose of our lives is to be happy.",
+  "Success is not the key to happiness. Happiness is the key to success.",
+  "Happiness is not something ready-made. It comes from your own actions.",
+  "The key to being happy is knowing you have the power to choose what to accept and what to let go.",
+  "Happiness is an inside job.",
+  "The greatest happiness you can have is knowing that you do not necessarily require happiness.",
+  "Happiness is letting go of what you think your life is supposed to look like.",
+  "The happiest people don't have the best of everything, they just make the best of everything.",
+  "You don't need a reason to be happy, just a choice.",
+  "Success is not the key to happiness. Happiness is the key to success.",
+  "Learn to let go. That is the key to happiness.",
+  "Happiness is not by chance, but by choice.",
+  "The purpose of our lives is to be happy.",
+  "Happiness is when what you think, what you say, and what you do are in harmony.",
+  "The more you praise and celebrate your life, the more there is in life to celebrate.",
+  "If you want to be happy, be.",
+  "Happiness is not a goal; it is a by-product.",
+  "Count your age by friends, not years. Count your life by smiles, not tears.",
+  "The secret of happiness is not in doing what one likes, but in liking what one does.",
+  "Be happy with what you have. Be excited about what you want.",
+  "Happiness is a choice. You can choose to be happy. There's going to be stress in life, but it's your choice whether you let it affect you or not.",
+  "The best way to cheer yourself up is to try to cheer somebody else up.",
+  "Happiness is not something you postpone for the future; it is something you design for the present.",
+  "Don't cry because it's over, smile because it happened.",
+  "The only limit to our realization of tomorrow will be our doubts of today.",
+  "You will never be happy if you continue to search for what happiness consists of. You will never live if you are looking for the meaning of life.",
+  "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+];
+
 function displayRandomMessage() {
   // Get a random index from the messages array
   var randomIndex = Math.floor(Math.random() * messages.length);
-  var randomIndexTwo = Math.floor(Math.random() * messages.length);
+  //var randomIndexTwo = Math.floor(Math.random() * messages.length);
 
   // Display the random message
   document.getElementById("messageDisplay").innerHTML = messages[randomIndex];
-  document.getElementById("messageDisplayShort").innerHTML =
-    messages[randomIndexTwo];
+  //document.getElementById("messageDisplayShort").innerHTML = messages[randomIndexTwo];
 }
-// Initial display
 displayRandomMessage();
-// Display a random message every 1 day
-setInterval(displayRandomMessage, 86400000);
-/*
-function displayRandomMessageShort() {
+
+function motivationMessageDisplay() {
   // Get a random index from the messages array
-  var randomIndexShort = Math.floor(Math.random() * short_messages.length);
+  var motivation = Math.floor(Math.random() * motivationMessage.length);
 
   // Display the random message
-  document.getElementById("messageDisplayShort").innerHTML =
-    messages[randomIndexShort];
-}*/
+  document.getElementById("motivationMessage").innerHTML =
+    motivationMessage[motivation];
+}
+motivationMessageDisplay();
+
 function dadJoke() {
   // Get a random index from the messages array
   var joke = Math.floor(Math.random() * dad_jokes.length);
@@ -279,7 +504,7 @@ dadJoke();
 
 // Uncomment the line below if you want to stop displaying messages after a certain time (e.g., 5 minutes)
 // setTimeout(() => clearInterval(messageInterval), 300000); // 300,000 milliseconds = 5 minutes
-
+/*
 const jokeContainer = document.getElementById("joke");
 const btn = document.getElementById("btn");
 const url =
@@ -294,24 +519,25 @@ let getJoke = () => {
       jokeContainer.classList.add("fade");
     });
 };
+getJoke();*/
 
 function getNewContent() {
-  getJoke();
+  //getJoke();
   displayRandomMessage();
   //displayRandomMessageShort();
   dadJoke();
+  motivationMessageDisplay();
 }
 
 btn.addEventListener("click", getNewContent);
-getJoke();
 
 //light and dark mode
 function dark() {
   //get each element then style them
   let messageOne = document.getElementById("messageDisplay");
-  let messageTwo = document.getElementById("messageDisplayShort");
+  let messageTwo = document.getElementById("motivationMessage");
   let clickBtn = document.getElementById("btn");
-  let jokeBtn = document.getElementById("joke");
+  let jokeBtn = document.getElementById("dadjoke");
   let realBtn = document.getElementById("button");
   //let arr = [messageOne, messageTwo, clickBtn, jokeBtn];
 
@@ -330,3 +556,4 @@ function dark() {
     "-2px -2px 3px rgba(94, 104, 121, 0.945), 2px 2px 3spx #ffffff";
 }
 //make background image her picture in ASCI
+console.log(dad_jokes.length);
